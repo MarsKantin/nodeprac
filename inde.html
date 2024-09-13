@@ -4,11 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Counter</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <div class="counter">
+        <span id="counter-value">0</span>
+    </div>
+    <div class="counter__buttons">
+        <button onclick="incrementCounter()">+1</button>
+        <button onclick="decrementCounter()">-1</button>
+        <button onclick="resetCounter()">Сбросить в 0</button>
+    </div>
 </body>
+<script src="script.js"></script>
 
 </html>
